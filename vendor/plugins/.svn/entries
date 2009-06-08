@@ -1,0 +1,34 @@
+8
+
+dir
+56
+http://ruslana.svn.beanstalkapp.com/vshoc/trunk/vendor/plugins
+http://ruslana.svn.beanstalkapp.com/vshoc
+
+
+
+2009-04-10T16:07:58.515206Z
+54
+ruslana
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b6c2b205-308d-4929-96ea-503a66dc544f
+
+paperclip
+dir
+
+will_paginate
+dir
+

@@ -1,0 +1,18 @@
+<h2>New Album</h2>
+
+<% form_for([:admin, Work.new]) do |f| %>
+<p>	
+	<%= f.label :title %>
+	<%= f.text_field :title %>
+</p>
+<p>
+	<%= f.label :signature %>
+	<%= f.text_field :signature %>
+</p>
+<p><%= link_to 'Add photo', admin_photos_path %></p>
+<p>
+	<%= f.submit "Create" %>
+</p>
+
+<% end %>
+

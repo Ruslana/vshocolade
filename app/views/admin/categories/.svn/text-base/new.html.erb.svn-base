@@ -1,0 +1,12 @@
+<h1>Categories</h1>
+
+<% form_for([:admin, @category]) do |f| %>
+	
+<p>
+	<%= f.label :title %>
+	<%= f.text_field :title %>
+</p>
+<p>
+	<%= f.submit 'create' %>
+</p>
+<% end %>

@@ -1,0 +1,19 @@
+<%= error_messages_for 'work' %>
+<h1>Editing work</h1>
+
+<% form_for([:admin, @work]) do |f| %>
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :signature %><br />
+    <%= f.text_area :signature %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', [@work, :admin] %> 
+<%= link_to 'Back', admin_works_path %>

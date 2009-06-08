@@ -1,0 +1,21 @@
+<%= render :partial => "admin/blogs/index_to_admin", :locals => {:blog => @blog} %>
+<% for post in @posts %>
+	<h2><%= link_to post.title, admin_post_path(post) %></h2>
+
+	<p><%#= post.date.strftime %></p>
+	<p><%= post.body %></p>
+		<p><% for photo in post.photos %></p> 
+			<p><%= photo.name %></p>
+			<p> <%= link_to image_tag(photo.file.url(:medium)), admin_post_path(post) %></p>	
+			<% break %>
+		<% end %>
+	<td class="list-actions"> 
+		<%= link_to 'Edit post', edit_admin_post_path(post) %><br/> 
+		<%= link_to 'Destroy post', [post, :admin], 
+			:confirm => 'Are you sure?', 
+			:method => :delete
+		%> 
+	</td>
+	<hr />
+<% end %>
+<%= will_paginate @posts %>

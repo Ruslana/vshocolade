@@ -1,0 +1,23 @@
+<h2>Editing blog</h2>
+
+<% form_for([:admin, @blog]) do |f| %>
+
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </p>
+  <p><%= f.label :description %></p>
+  <p><%= f.text_area :description %></p>
+  <p>
+    <%= f.label :author %>
+    <%= f.text_field :author %>
+  </p>
+  <p>
+    <%= f.label :email_author %>
+    <%= f.text_field :email_author %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+

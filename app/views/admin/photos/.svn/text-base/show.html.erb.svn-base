@@ -1,0 +1,7 @@
+<p><%= @photo.name %></p>
+
+<%= image_tag(@photo.file.url(:medium)) %><br />
+
+<p><%#= submit_tag 'preview', :action => "preview" %>
+
+<%#= submit_tag 'next' %><br />

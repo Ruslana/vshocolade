@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+	<head> 
+ 		<title>Vshocolade</title> 
+ 		<%= stylesheet_link_tag "vshocolade", :media => "all" %> 
+	</head> 
+	<body>
+	 	<div id="action-list">
+			<p><%= link_to ("Sing out", new_session_path, :method => :delete) %></p>
+			<p><%= link_to 'Home page', admin_posts_path %></p>
+			<p><%= link_to  "Gallery", admin_works_path %></p>
+			<p><%= link_to "Add new admin", new_admin_user_path %></p>
+			<p><%= link_to 'Show all admins', admin_users_path %></p>
+			<p><%= link_to 'Upload_photos', new_admin_photo_path %></p>
+			<p><%= link_to "Create new post", new_admin_post_path %></p>
+			<p><%= link_to "Create new album", new_admin_work_path %></p>
+			<p><%= link_to 'Show comments', admin_comments_path %></p>
+			<p><%= link_to 'Public part', posts_path %></p>
+		</div>
+<%= yield :layout %> 
+
+	</body> 
+</html> 

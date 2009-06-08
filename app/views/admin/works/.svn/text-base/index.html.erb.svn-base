@@ -1,0 +1,18 @@
+<%= render :partial => "admin/portfolios/index_to_admin",
+ 		   :locals => {:portfolio => @portfolio} %>
+<% for work in @works %>
+<h3><%= work.title %></h3>
+<p><%= work.signature %></p>
+<p><% for photo in work.photos %></p> 
+	<p><%= photo.name %></p>
+	<p><%= image_tag(photo.file.url(:medium)) %></p>
+	<% end %>
+<td class="list-actions"> 
+	<%= link_to 'Edit album', edit_admin_work_path(work) %><br />
+	<%= link_to 'Destroy album', [work, :admin], 
+		:confirm => 'Are you sure?', 
+		:method => :delete
+	%> 
+</td>
+<hr />
+<% end %>

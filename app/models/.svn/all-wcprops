@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/vshoc/!svn/ver/48/trunk/app/models
+END
+portfolio.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/vshoc/!svn/ver/48/trunk/app/models/portfolio.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/vshoc/!svn/ver/32/trunk/app/models/user.rb
+END
+comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/vshoc/!svn/ver/46/trunk/app/models/comment.rb
+END
+work.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/vshoc/!svn/ver/48/trunk/app/models/work.rb
+END
+blog.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/vshoc/!svn/ver/2/trunk/app/models/blog.rb
+END
+post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/vshoc/!svn/ver/48/trunk/app/models/post.rb
+END
+photo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/vshoc/!svn/ver/48/trunk/app/models/photo.rb
+END

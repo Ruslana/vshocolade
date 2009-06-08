@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/vshoc/!svn/ver/48/trunk/test/fixtures
+END
+portfolios.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/vshoc/!svn/ver/2/trunk/test/fixtures/portfolios.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/vshoc/!svn/ver/2/trunk/test/fixtures/users.yml
+END
+comments.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/vshoc/!svn/ver/2/trunk/test/fixtures/comments.yml
+END
+works.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/vshoc/!svn/ver/2/trunk/test/fixtures/works.yml
+END
+blogs.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/vshoc/!svn/ver/2/trunk/test/fixtures/blogs.yml
+END
+posts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/vshoc/!svn/ver/2/trunk/test/fixtures/posts.yml
+END
+photos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/vshoc/!svn/ver/2/trunk/test/fixtures/photos.yml
+END

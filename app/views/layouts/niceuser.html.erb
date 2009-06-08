@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+	<head> 
+ 		<title>Vshocolade</title> 
+ 		<%= stylesheet_link_tag "vshocolade", :media => "all" %> 
+	</head> 
+	<body>
+		<div id="weblog">
+			<p><%= link_to 'На главную страницу', posts_path %></p>
+			<p><%= link_to "Галерея", works_path %></p>
+		</div>
+		
+<%= yield :layout %> 
+
+	</body> 
+</html> 

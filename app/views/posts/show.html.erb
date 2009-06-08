@@ -1,0 +1,18 @@
+<%= render :partial => "admin/blogs/index", :locals => {:blog => @blog} %>
+
+<h1><%= @post.title %></h1>
+<p><%= @post.body %></p>
+<div id="photos-table">
+	<% for photo in @post.photos %>
+	<div class="pic">
+		<p><%= photo.name %></p>
+		<%= image_tag(photo.file.url(:small)) %>
+	</div>
+	<% end %>	
+<hr />
+<p><%#= @post.date %></p>
+<% for comment in @post.comments %>
+	<p><%= comment.body %></p>
+<% end %>
+<%= render :partial => "comments/form" %>
+

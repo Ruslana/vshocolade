@@ -1,0 +1,13 @@
+<h1><%= @post.title %></h1>
+<p><%= @post.body %></p>
+<p><%= @post.date %></p> 
+	<p><% for photo in @post.photos %></p> 
+		<p><%= photo.name %></p>
+		<p><%= image_tag(photo.file.url(:small)) %></p>
+	<% end %>	
+<hr />
+<h2><%= link_to "Comments:", admin_comments_path %></h2>
+<% for comment in @post.comments %>
+	<p><%= comment.body %></p>
+<% end %>
+

@@ -1,0 +1,7 @@
+<h3><%= @work.title %></h3>
+<p><%= @work.signature %></p>
+<p><% for photo in @work.photos %></p> 
+		<p><%= photo.name %></p>
+		<%= image_tag(photo.file.url(:medium)) %><br />
+	<% end %>
+<p><%= link_to 'Back', works_path %></p>

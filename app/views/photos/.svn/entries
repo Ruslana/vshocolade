@@ -1,0 +1,52 @@
+8
+
+dir
+56
+http://ruslana.svn.beanstalkapp.com/vshoc/trunk/app/views/photos
+http://ruslana.svn.beanstalkapp.com/vshoc
+
+
+
+2009-03-18T15:24:39.465717Z
+47
+ruslana
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b6c2b205-308d-4929-96ea-503a66dc544f
+
+index.html.erb
+file
+
+
+
+
+2009-04-21T14:18:45.000000Z
+2defa01a627d307bf0e14a36793b1b95
+2009-03-18T15:24:39.465717Z
+47
+ruslana
+
+show.html.erb
+file
+
+
+
+
+2009-04-21T14:18:45.000000Z
+0974e6fd7005ca32782e8c50b15e6028
+2009-03-18T11:01:21.755869Z
+43
+ruslana
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/vshoc/!svn/ver/56/trunk/app/views/works
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/vshoc/!svn/ver/56/trunk/app/views/works/index.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/vshoc/!svn/ver/48/trunk/app/views/works/show.html.erb
+END

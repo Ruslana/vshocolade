@@ -1,0 +1,8 @@
+<h1>Комментарии:</h1>
+<% for comment in @comments %>
+<h2><%=comment.name %></h2>
+<p><%= comment.email %></p>
+<p><%= comment.web_site %></p>
+<p><%= comment.body %></p>
+<% end %>
+

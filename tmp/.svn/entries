@@ -1,0 +1,40 @@
+8
+
+dir
+56
+http://ruslana.svn.beanstalkapp.com/vshoc/trunk/tmp
+http://ruslana.svn.beanstalkapp.com/vshoc
+
+
+
+2009-03-17T09:29:37.506994Z
+36
+ilya
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b6c2b205-308d-4929-96ea-503a66dc544f
+
+pids
+dir
+
+cache
+dir
+
+sessions
+dir
+
+sockets
+dir
+

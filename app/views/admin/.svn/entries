@@ -1,0 +1,52 @@
+8
+
+dir
+56
+http://ruslana.svn.beanstalkapp.com/vshoc/trunk/app/views/admin
+http://ruslana.svn.beanstalkapp.com/vshoc
+
+
+
+2009-04-16T11:01:02.487868Z
+55
+ruslana
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b6c2b205-308d-4929-96ea-503a66dc544f
+
+portfolios
+dir
+
+users
+dir
+
+categories
+dir
+
+comments
+dir
+
+works
+dir
+
+blogs
+dir
+
+posts
+dir
+
+photos
+dir
+

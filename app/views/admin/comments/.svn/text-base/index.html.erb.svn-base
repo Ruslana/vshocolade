@@ -1,0 +1,14 @@
+<h1>Comments:</h1>
+<% for comment in @comments %>
+	<p>
+		<%=comment.name %>:
+		<%= comment.body %>
+	</p>
+	<p><%= comment.email %></p>
+	<p><%= comment.web_site %></p>
+
+	<%= link_to 'Destroy comment', [comment, :admin], 
+									:confirm => 'Are you sure?', 
+									:method => :delete
+	%>
+<% end %>

@@ -1,0 +1,12 @@
+<%= form_tag admin_posts_path %>
+	<% @photos.each do |photo| %>
+  		<p><%= photo.name %></p>
+		<%= link_to image_tag(photo.file.url(:medium)), [photo, :admin] %><br/ >	
+		<td class="list-actions"> 
+			<%= link_to 'Correct name', edit_admin_photo_path(photo) %><br /> 
+			<%= link_to 'Destroy', [photo, :admin], 
+					:confirm => 'Are you sure?', 
+					:method => :delete
+					%> 
+		</td>
+	<% end %>

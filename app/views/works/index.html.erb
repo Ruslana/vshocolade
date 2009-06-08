@@ -1,0 +1,16 @@
+<%= render :partial => "admin/portfolios/index",
+ 		   :locals => {:portfolio => @portfolio} %>
+<% for work in @works %>
+<h3><%= link_to work.title, work_path(work) %></h3>
+<p><%= work.signature %></p>
+<div class="conteiner">
+<% for photo in work.photos %> 
+	<div class="pic">
+		<p><%= photo.name %></p>
+		<%= image_tag(photo.file.url(:small)) %>
+	</div>
+	<% end %>
+	<div class="cleaner"></div>
+</div>
+<hr />
+<% end %>

@@ -1,0 +1,4 @@
+<h1>Категории</h1>
+<% for category in @categories %>
+<h2><%= link_to category.title, category_path(category) %></h2>
+<% end %>

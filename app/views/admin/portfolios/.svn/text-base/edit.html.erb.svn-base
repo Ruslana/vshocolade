@@ -1,0 +1,23 @@
+<h2>Editing Portfolio</h2>
+
+<% form_for([:admin, @portfolio]) do |f| %>
+<p>	
+	<%= f.label :title %>
+	<%= f.text_field :title %>
+</p>
+<p>
+	<%= f.label :description %>
+	<%= f.text_field :description %>
+</p>
+<p>
+	<%= f.label :author %>
+	<%= f.text_field :author %>
+</p>
+<p>
+	<%= f.label :email_author %>
+	<%= f.text_field :email_author %>
+</p>
+<p>
+	<%= f.submit "Update" %>
+</p>
+<% end %>

@@ -1,0 +1,58 @@
+h1 {color: #604030}
+
+h2 {color: #b08050}
+
+A:link { color: #604030 }     
+A:visited { color: #b08050 }
+A:active { color: #ffffff }
+
+body {
+	color: #fff6dd;
+	background: #201100;
+	text-align: center;
+	font-family: "Lucida Grande", Verdana, Lucida, Arial, sans-serif 
+}
+	
+#action-list, #weblog {
+	width: 200px;
+	height: 750px;
+	float: right;
+	padding-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background: #fff6dd;
+}
+
+#upload {
+	color: black;
+	background: #ffffff;
+	width: 500px;
+	height: 200px;
+	margin: 40px 300px 100px 300px;
+	padding-top: 50px;
+}
+
+#vshocolade-form {
+	color: black;
+	background: #ffffff;
+	width: 500px;
+	height: 300px;
+	margin: 100px 330px 100px 330px;
+	padding-top: 10px;
+}
+
+#photo-table {
+	margin:20px 40px;
+	width:400px;
+	}
+.pic {border:1px;
+	float:left;
+	margin:10px;
+	}
+.pic img {display:block;}
+
+.cleaner {clear:both;}
+
+#photos {
+	display: inline
+}

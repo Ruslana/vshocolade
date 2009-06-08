@@ -1,0 +1,82 @@
+8
+
+dir
+56
+http://ruslana.svn.beanstalkapp.com/vshoc/trunk/config
+http://ruslana.svn.beanstalkapp.com/vshoc
+
+
+
+2009-03-18T15:24:39.465717Z
+47
+ruslana
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b6c2b205-308d-4929-96ea-503a66dc544f
+
+routes.rb
+file
+
+
+
+
+2009-04-21T14:18:45.000000Z
+700ce1777dbb6296b5e5dd1036b05568
+2009-03-18T15:24:39.465717Z
+47
+ruslana
+
+boot.rb
+file
+
+
+
+
+2009-04-21T14:18:45.000000Z
+fd5eb215ca1d1e68dfd56c3f01e6b0cd
+2008-12-24T17:22:19.123401Z
+2
+ruslana
+
+initializers
+dir
+
+environment.rb
+file
+
+
+
+
+2009-04-21T14:18:45.000000Z
+ad83959eb7b065fd081d30fefca2d4f0
+2008-12-24T17:22:19.123401Z
+2
+ruslana
+
+environments
+dir
+
+database.yml.example
+file
+
+
+
+
+2009-04-21T14:18:45.000000Z
+022cab6bcecff798aa16172e8ffbfb0f
+2009-01-13T08:37:44.068621Z
+9
+ruslana
+

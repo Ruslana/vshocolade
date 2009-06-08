@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/vshoc/!svn/ver/53/trunk/app/views/layouts
+END
+niceadmin.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/vshoc/!svn/ver/53/trunk/app/views/layouts/niceadmin.html.erb
+END
+niceuser.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/vshoc/!svn/ver/53/trunk/app/views/layouts/niceuser.html.erb
+END
+session.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/vshoc/!svn/ver/30/trunk/app/views/layouts/session.html.erb
+END

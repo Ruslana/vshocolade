@@ -1,0 +1,19 @@
+<h3>New Work</h3>
+
+<% form_for([:admin, Work.new]) do |f| %>
+<p>	
+	<%= f.label :title %>
+	<%= f.text_field :title %>
+</p>
+<p>
+	<%= f.label :signature %>
+	<%= f.text_field :signature %>
+</p>
+<p>
+	<%= f.hidden_field :portfolio_id, :value => @portfolio.id %>
+</p>
+<p>
+	<%= f.submit "Create" %>
+</p>
+
+<% end %>

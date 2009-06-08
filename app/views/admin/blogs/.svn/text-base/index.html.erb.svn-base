@@ -1,0 +1,7 @@
+<h1>Blog</h1>
+<% for blog in @blogs %>
+<h2><%= blog.title %></h2>
+<p><%= blog.description %></p>
+<p><%= blog.author %></p>
+<p><%= blog.email_author %></p>
+<% end %>

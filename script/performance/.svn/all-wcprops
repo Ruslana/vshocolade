@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/vshoc/!svn/ver/2/trunk/script/performance
+END
+benchmarker
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/vshoc/!svn/ver/2/trunk/script/performance/benchmarker
+END
+profiler
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/vshoc/!svn/ver/2/trunk/script/performance/profiler
+END
+request
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/vshoc/!svn/ver/2/trunk/script/performance/request
+END

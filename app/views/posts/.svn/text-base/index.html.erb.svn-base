@@ -1,0 +1,20 @@
+<%= render :partial => "admin/blogs/index", :locals => {:blog => @blog} %>
+<% for post in @posts %>
+	<h2><%= link_to post.title, post_path(post) %></h2>
+	<p><%= post.body %></p>
+	<p><%#= post.date %></p>
+		<p><% for photo in post.photos %></p> 
+			<p><%= photo.name %></p>
+			<p> <%= link_to image_tag(photo.file.url(:medium)), post_path(post) %></p>
+			<% break %>
+		<% end %>
+	<h3>Комментарии:</h3>
+	<% for comment in post.comments %>
+		<p>
+			<%= comment.name %>:
+			<%= comment.body %>
+		</p>
+	<% end %>
+	<hr />
+<% end %>
+<%= will_paginate @posts %>

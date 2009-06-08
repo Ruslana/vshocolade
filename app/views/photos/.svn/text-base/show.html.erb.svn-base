@@ -1,0 +1,5 @@
+<p><%= @photo.name %></p>
+<%= image_tag(@photo.file.url(:small)) %><br />
+
+
+
